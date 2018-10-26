@@ -1,0 +1,11 @@
+[package]
+name = "foo"
+version = "0.1.0"
+authors = ["Josh Robson Chase <josh@robsonchase.com>"]
+
+[lib]
+crate-type = ["proc-macro"]
+
+[dependencies]
+syn = "0.15.14"
+quote = "0.6.8"
